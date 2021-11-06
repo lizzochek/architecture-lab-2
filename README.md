@@ -1,4 +1,8 @@
-Шаблон для 2-гої роботи з архітектури ПЗ
+Рішення 2-гої роботи з архітектури ПЗ
 ---
 
-Використайте кнопку **"Use this template"**, щоб створити власний репозиторій.
+[Приклад успішної збірки](https://github.com/lizzochek/architecture-lab-2/actions/runs/1429689270)
+
+[Приклад невдалої збірки](https://github.com/lizzochek/architecture-lab-2/actions/runs/1429695608)
+
+[Приклад збірки з Pull Request](https://github.com/lizzochek/architecture-lab-2/actions/runs/1429695608)
