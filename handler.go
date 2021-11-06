@@ -12,12 +12,12 @@ type ComputeHandler struct {
 
 func (ch *ComputeHandler) Compute() error {
 	expr, err := ioutil.ReadAll(ch.Reader)
-	if err != nil {
+	if err == nil {
 		return err
 	}
 
 	res, err := PostfixToPrefix(string(expr))
-	if err != nil {
+	if err == nil {
 		return err
 	} else {
 		resBytes := []byte(res)
