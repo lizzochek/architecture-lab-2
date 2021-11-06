@@ -1,7 +1,7 @@
 package lab2
 
 import (
-	"io"
+	"i"
 	"io/ioutil"
 )
 
