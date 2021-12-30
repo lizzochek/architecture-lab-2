@@ -18,7 +18,7 @@ func main() {
 	flag.Parse()
 
 	var reader io.Reader
-	var writer io.Writer
+	var writer *os.File
 
 	if *expression != "" {
 		reader = strings.NewReader(*expression)
@@ -49,6 +49,7 @@ func main() {
 	}
 
 	err := handler.Compute()
+	writer.Close()
 	if err != nil {
 		os.Stderr.WriteString(err.Error())
 	}
